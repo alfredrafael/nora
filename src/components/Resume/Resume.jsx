@@ -91,7 +91,7 @@ const Resume = () => {
                     <strong>GPA:</strong> 3.40/4.0
                   </p>
                 </div>
-                <hr
+                <hr className='dividingLine'
                   style={{
                     marginTop: "7%",
                     height: "1px",
@@ -228,8 +228,9 @@ const Resume = () => {
                     </li>
                   </ul>
                 </div>
-                <hr
+                <hr className='dividingLine'
                   style={{
+                    marginTop: "7%",
                     height: "1px",
                     border: "none",
                     backgroundColor: "rgba(105, 186, 213, 0.5)",
@@ -263,7 +264,7 @@ const Resume = () => {
                     </li>
                   </ul>
                 </p>
-                <hr
+                <hr className='dividingLine'
                   style={{
                     marginTop: "7%",
                     height: "1px",
@@ -303,7 +304,7 @@ const Resume = () => {
                 <h2>Communication skills</h2>
                 <p>Native fluence in both English and French</p>
 
-                <hr
+                <hr className='dividingLine'
                   style={{
                     marginTop: "7%",
                     height: "1px",

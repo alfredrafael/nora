@@ -132,6 +132,9 @@ div#resume .profile-photo {
   div#resume .profile-photo {
     display: none;
   }
+  .dividingLine {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
