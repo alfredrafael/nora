@@ -61,7 +61,7 @@ const Resume = () => {
                 </div>
 
                 <h2>Communication skills</h2>
-                <p>Native fluence in both English and French</p>
+                <p>Native fluency in both English and French</p>
 
                 <hr
                   className="dividingLine"
