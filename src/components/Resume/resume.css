@@ -80,10 +80,9 @@ div#resume p.objective {
 div#resume dt {
   font-style: italic;
   font-weight: bold;
-  font-size: 18px;
-  text-align: right;
-  padding: 0 26px 0 0;
-  width: 150px;
+  font-size: 15px;
+  text-align: center;
+  width: 100px;
   border-right: 1px solid #999;
 }
 
