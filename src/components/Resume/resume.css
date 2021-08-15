@@ -135,6 +135,9 @@ div#resume .profile-photo {
   .dividingLine {
     display: none;
   }
+  .flexed-skills {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 400px) {
