@@ -81,8 +81,8 @@ div#resume dt {
   font-style: italic;
   font-weight: bold;
   font-size: 15px;
-  text-align: center;
-  width: 100px;
+  text-align: left !important;
+  width: 115px;
   border-right: 1px solid #999;
 }
 
