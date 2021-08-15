@@ -34,64 +34,37 @@ const Resume = () => {
             <br />
 
             <dl>
-              <dt>Education</dt>
+              <dt>Skills</dt>
               <dd>
-                <div className="education-item">
-                  <h2>
-                    Masters in Science, Financial Management<span>2021</span>
-                  </h2>
+                <h2>Software & Analysis</h2>
+                <div className="skills-item flexed-skills">
                   <p>
-                    <strong>Boston University</strong> – Boston, MA
-                    <br /> <br />
-                    <strong>Minor:</strong> International Finance
-                    <br />
-                    <strong>Research: </strong>
-                    <i>
-                      Compared returns trends & performance in IPOs to develop a
-                      regression model using EViews, achieving 95% accuracy
-                    </i>
+                    <ul>
+                      <li>Python</li>
+                      <li>Access</li>
+                      <li>E-Views</li>
+                      <li>Financial Modeling</li>
+                      <li>Financial Analysis & Reporting</li>
+                      <li>Forecasting</li>
+                    </ul>
+                  </p>
+                  <p>
+                    <ul>
+                      <li>Valuation</li>
+                      <li>Research</li>
+                      <li>Regression Analysis</li>
+                      <li>Corporate Finance & Consulting</li>
+                      <li>Bloomberg Certificate</li>
+                      <li>MS Office Suite</li>
+                    </ul>
                   </p>
                 </div>
+
+                <h2>Communication skills</h2>
+                <p>Native fluence in both English and French</p>
+
                 <hr
-                  style={{
-                    height: "1px",
-                    border: "none",
-                    backgroundColor: "#d3d3d3",
-                    maxWidth: "30%",
-                  }}
-                />
-                <div className="education-item">
-                  <h2>
-                    Certificate in Finance<span>2019</span>
-                  </h2>
-                  <p>
-                    <strong>University of California</strong> – Los Angeles, CA
-                    <br />
-                  </p>
-                </div>
-                <hr
-                  style={{
-                    height: "1px",
-                    border: "none",
-                    backgroundColor: "#d3d3d3",
-                    maxWidth: "30%",
-                  }}
-                />
-                <div className="education-item">
-                  <h2>
-                    Bachelor of Science in Finance<span>2018</span>
-                  </h2>
-                  <p>
-                    <strong>California State University</strong> – Northridge,
-                    CA
-                    <br /> <br />
-                    <strong>Honors:</strong> Dean’s List (3 semesters
-                    consecutives)
-                    <br />
-                    <strong>GPA:</strong> 3.40/4.0
-                  </p>
-                </div>
-                <hr className='dividingLine'
+                  className="dividingLine"
                   style={{
                     marginTop: "7%",
                     height: "1px",
@@ -228,7 +201,8 @@ const Resume = () => {
                     </li>
                   </ul>
                 </div>
-                <hr className='dividingLine'
+                <hr
+                  className="dividingLine"
                   style={{
                     marginTop: "7%",
                     height: "1px",
@@ -264,7 +238,8 @@ const Resume = () => {
                     </li>
                   </ul>
                 </p>
-                <hr className='dividingLine'
+                <hr
+                  className="dividingLine"
                   style={{
                     marginTop: "7%",
                     height: "1px",
@@ -276,35 +251,65 @@ const Resume = () => {
             </dl>
 
             <dl>
-              <dt>Skills</dt>
+              <dt>Education</dt>
               <dd>
-                <h2>Software & Analysis</h2>
-                <div className="skills-item flexed-skills">
+                <div className="education-item">
+                  <h2>
+                    Masters in Science, Financial Management<span>2021</span>
+                  </h2>
                   <p>
-                    <ul>
-                      <li>Python</li>
-                      <li>Access</li>
-                      <li>E-Views</li>
-                      <li>Financial Modeling</li>
-                      <li>Financial Analysis & Reporting</li>
-                      <li>Forecasting</li>
-                    </ul>
-                  </p>
-                  <p>
-                    <ul>
-                      <li>Valuation</li>
-                      <li>Research</li>
-                      <li>Regression Analysis</li>
-                      <li>Corporate Finance & Consulting</li>
-                      <li>Bloomberg Certificate</li>
-                    </ul>
+                    <strong>Boston University</strong> – Boston, MA
+                    <br /> <br />
+                    <strong>Minor:</strong> International Finance
+                    <br />
+                    <strong>Research: </strong>
+                    <i>
+                      Compared returns trends & performance in IPOs to develop a
+                      regression model using EViews, achieving 95% accuracy
+                    </i>
                   </p>
                 </div>
-
-                <h2>Communication skills</h2>
-                <p>Native fluence in both English and French</p>
-
-                <hr className='dividingLine'
+                <hr
+                  style={{
+                    height: "1px",
+                    border: "none",
+                    backgroundColor: "#d3d3d3",
+                    maxWidth: "30%",
+                  }}
+                />
+                <div className="education-item">
+                  <h2>
+                    Certificate in Finance<span>2019</span>
+                  </h2>
+                  <p>
+                    <strong>University of California</strong> – Los Angeles, CA
+                    <br />
+                  </p>
+                </div>
+                <hr
+                  style={{
+                    height: "1px",
+                    border: "none",
+                    backgroundColor: "#d3d3d3",
+                    maxWidth: "30%",
+                  }}
+                />
+                <div className="education-item">
+                  <h2>
+                    Bachelor of Science in Finance<span>2018</span>
+                  </h2>
+                  <p>
+                    <strong>California State University</strong> – Northridge,
+                    CA
+                    <br /> <br />
+                    <strong>Honors:</strong> Dean’s List (3 semesters
+                    consecutives)
+                    <br />
+                    <strong>GPA:</strong> 3.40/4.0
+                  </p>
+                </div>
+                <hr
+                  className="dividingLine"
                   style={{
                     marginTop: "7%",
                     height: "1px",
