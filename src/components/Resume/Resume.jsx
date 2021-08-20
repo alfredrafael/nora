@@ -260,7 +260,7 @@ const Resume = () => {
                   <p>
                     <strong>Boston University</strong> – Boston, MA
                     <br /> <br />
-                    <strong>Minor:</strong> International Finance
+                    <strong>Major:</strong> International Finance
                     <br />
                     <strong>Research: </strong>
                     <i>
